@@ -5,10 +5,8 @@ author: "anacra"
 environments:
   development:
     base_url: "http://localhost:3000"
-    site_name: "△ℵ△<℟△ (development)"
   staging:
     base_url: "http://test.anacra.io"
-    site_name: "△ℵ△<℟△ (staging)"
   production:
     base_url: "http://anacra.io"
 
