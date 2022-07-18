@@ -1,0 +1,162 @@
+html,body {
+    color: #ccc;
+	margin:0;
+	padding:0;
+    	background: #ccc
+}
+
+body {
+	font: 76% dejavu sans, verdana, arial, hevetica, sans-serif;
+	text-align:center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+	margin:0 10px 10px
+}
+
+a {     
+	color: #ccc;
+  	text-decoration:none; 
+}
+
+a:hover { 
+	color: #fff;
+	text-decoration: none;
+}
+
+#header {
+	height: 90px;
+	margin: 0;
+	background: #333;
+}
+
+#header h1 {
+	color: #c9c9c9;
+   	float: left;
+	padding-left: 10px;
+   	padding-top: 20px;
+   	font-size: 20px
+}
+
+#header h3 {
+    color: #c9c9c9;
+    float: right;
+    font-size: 10px;
+    padding-right: 36px;
+    margin-top: 65px;
+}
+
+#header a { 
+	color: #ccc;
+  	text-decoration: none; 
+}
+
+#container {
+	text-align:left;
+	background: #000
+}
+
+.content p { 
+	line-height:1.4 
+}
+
+#navigation {
+	font-size: 12px;
+   	font-weight: bold;
+	color: #fff;
+	background:#000
+}
+
+#footer {
+   	clear: both;
+   	width: 100%;
+	background: #333;
+	color: #ccc
+}
+
+#footer p {
+	margin:0;
+	padding:5px 10px;
+	text-align: right;
+	font-size: x-small;
+}
+
+#container {
+	width:700px;
+	margin:0 auto
+}
+
+.content {
+	float:left;
+	width:549px;
+	min-height: 500px;
+	border-right: 1px dotted #696969;
+}
+
+#navigation {
+	float: right;
+	width: 150px
+}
+
+#navigation ul { 
+    list-style-type: none;
+}
+
+#navigation a { 
+	display: block;
+	color: #ccc;
+  	text-decoration: none; 
+   	font-size: 10px;
+   	font-weight: bold;
+}
+
+#navigation a:hover {
+	color: #fff;
+}
+
+h2 { 
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    border-bottom: 1px solid #696969;
+    padding-bottom: 5px;
+}
+
+.post aside {
+}
+        
+.post h3 {
+	color: #ccc;
+	font-size: 14px;
+	padding-bottom: 1px;
+	letter-spacing: .1em;
+}
+
+.post { 
+	margin: 0 20px;
+	font-weight: normal;
+	color: #ccc;
+}
+
+/*
+.post h3 {
+        font-weight: normal;
+	font-size: small;
+}
+*/
+
+.post ul {
+    list-style: none;
+}
+
+.post-footer {
+    color: #fff;
+    font-style: italic;
+    padding-left: 5%;
+}

@@ -1,0 +1,14 @@
+<% render '/default.html' do %>
+  <div class='post'>
+    <h3><%= link_to item[:title], item.path %></h3>
+    <article>
+    <blockquote>
+      <%= yield %>
+    </blockquote>
+    </article>
+    <p class="post-footer">
+      - <%= @config[:author] %>,
+      <%= get_pretty_date(item) %>
+    </p>
+  </div>
+<% end %>

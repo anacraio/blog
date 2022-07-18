@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <div id="container">
+
+	<div id="header">
+        <!---
+		<img src="/images/anaban.png" style='height: 100%; width: 100%;'> 
+	-->
+		<h1><%= @config[:site_name] %></h1>
+        	<h3><%= @config[:site_desc] %></h3>
+      </div>
+
+      <div id="wrapper">
+        <section class='content'>
+          <%= yield %>
+        </section>
+      </div>
+
+      <div id="navigation">
+        <ul>
+          <li>blah</li>
+          <li>blah</li>
+          <li>blah</li>
+        </ul>
+      </div>
+
+      <div id="footer">
+           &copy; <%= @config[:author] %> - <%= @config[:site_name] %>
+      </div>
+
+    </div>
+  </body>
+</html>
