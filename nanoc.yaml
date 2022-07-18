@@ -1,14 +1,14 @@
-site_name: "a n a c r a . i o"
+site_name: "△ℵ△<℟△"
 site_desc: ""
-author: "a n a c r a"
+author: "anacra"
 
 environments:
   development:
     base_url: "http://localhost:3000"
-    site_name: "a n a c r a . i o (development)"
+    site_name: "△ℵ△<℟△ (development)"
   staging:
     base_url: "http://test.anacra.io"
-    site_name: "a n a c r a . i o (staging)"
+    site_name: "△ℵ△<℟△ (staging)"
   production:
     base_url: "http://anacra.io"
 
