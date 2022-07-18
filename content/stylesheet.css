@@ -158,6 +158,7 @@ a:hover {
 
 .post-footer {
     color: #fff;
+    text-align: right;
     font-style: italic;
     padding-left: 5%;
 }
