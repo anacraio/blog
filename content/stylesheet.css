@@ -82,20 +82,20 @@ a:hover {
 }
 
 #container {
-    width:700px;
+    width:50%;
     margin:0 auto;
 }
 
 .content {
     float:left;
-    width:549px;
+    width:80%;
     min-height: 500px;
     border-right: 1px dotted #696969;
 }
 
 #navigation {
     float: right;
-    width: 150px;
+    width: 19%;
     padding-top: 20px;
 }
 
