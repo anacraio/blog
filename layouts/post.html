@@ -7,7 +7,8 @@
         </blockquote>
         </article>
         <p class="post-footer">
-          <%= get_pretty_date(item) %>
+          left by <%= @config[:author] %> 
+          at <%= get_pretty_date(item) %>
         </p>
       </div>
     <% end %>
