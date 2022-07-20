@@ -1,7 +1,7 @@
     <% render '/default.html' do %>
       <% sorted_articles.each do |post| %>
         <div class='post'>
-          <h2><%= link_to post[:title], post.path %></h2>
+          <h3><%= link_to post[:title], post.path %></h3>
           <article>
           <blockquote>
             <%= get_post_start(post) %>
