@@ -96,7 +96,7 @@ a:hover {
 #navigation {
     float: right;
     width: 19%;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #navigation ul {
@@ -127,8 +127,9 @@ a:hover {
 .post h3 {
     color: #fff;
     font-weight: normal;
+    border-bottom: 1px solid #696969;
+    padding-left: 10px;
     padding-bottom: 1px;
-    letter-spacing: .1em;
 }
 
 .post {
@@ -148,8 +149,7 @@ a:hover {
 }
 
 .post-footer {
-    color: #fff;
-    text-align: right;
+    color: #ccc;
     font-style: italic;
-    padding-left: 5%;
+    padding-left: 50%;
 }
