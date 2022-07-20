@@ -8,7 +8,7 @@ use_helper Nanoc::Helpers::LinkTo
 module PostHelper
 
   def get_pretty_date(post)
-    attribute_to_time(post[:created_at]).strftime('%Y-%b-%-d')
+    attribute_to_time(post[:created_at]).strftime('%Y-%m-%-d')
   end
 
   def get_post_start(post)
