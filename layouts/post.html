@@ -1,13 +1,13 @@
-<% render '/default.html' do %>
-  <div class='post'>
-    <h3><%= link_to item[:title], item.path %></h3>
-    <article>
-    <blockquote>
-      <%= yield %>
-    </blockquote>
-    </article>
-    <p class="post-footer">
-      <%= get_pretty_date(item) %>
-    </p>
-  </div>
-<% end %>
+    <% render '/default.html' do %>
+      <div class='post'>
+        <h3><%= link_to item[:title], item.path %></h3>
+        <article>
+        <blockquote>
+          <%= yield %>
+        </blockquote>
+        </article>
+        <p class="post-footer">
+          <%= get_pretty_date(item) %>
+        </p>
+      </div>
+    <% end %>
