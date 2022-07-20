@@ -64,7 +64,6 @@ a:hover {
 }
 
 #navigation {
-    font-weight: bold;
     color: #fff;
     background:#000;
 }
@@ -107,7 +106,6 @@ a:hover {
     display: block;
     color: #ccc;
     text-decoration: none;
-    font-weight: bold;
 }
 
 #navigation a:hover {
