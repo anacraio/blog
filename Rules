@@ -23,7 +23,7 @@ route '/indices.html' do
 end
 
 route '/posts/*' do
-  y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/
+  y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)\.md/
     .match(item.identifier).captures
 
   "/#{y}/#{m}/#{d}/#{slug}/index.html"
