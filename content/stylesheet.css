@@ -40,13 +40,11 @@ a:hover {
     float: left;
     padding-left: 10px;
     padding-top: 20px;
-    font-size: 20px;
 }
 
 #header h3 {
     color: #c9c9c9;
     float: right;
-    font-size: 10px;
     padding-right: 36px;
     margin-top: 65px;
 }
@@ -66,7 +64,6 @@ a:hover {
 }
 
 #navigation {
-    font-size: 12px;
     font-weight: bold;
     color: #fff;
     background:#000;
@@ -83,7 +80,6 @@ a:hover {
     margin:0;
     padding:5px 10px;
     text-align: right;
-    font-size: x-small;
 }
 
 #container {
@@ -111,7 +107,6 @@ a:hover {
     display: block;
     color: #ccc;
     text-decoration: none;
-    font-size: 10px;
     font-weight: bold;
 }
 
@@ -121,7 +116,6 @@ a:hover {
 
 .post h2 {
     color: #fff;
-    font-size: 14px;
     font-weight: normal;
     padding-left: 10px;
     border-bottom: 1px solid #696969;
@@ -133,7 +127,6 @@ a:hover {
 
 .post h3 {
     color: #fff;
-    font-size: 14px;
     font-weight: normal;
     padding-bottom: 1px;
     letter-spacing: .1em;
@@ -148,7 +141,6 @@ a:hover {
 /*
 .post h3 {
     font-weight: normal;
-    font-size: small;
 }
 */
 
