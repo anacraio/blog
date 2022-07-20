@@ -96,6 +96,7 @@ a:hover {
 #navigation {
     float: right;
     width: 150px;
+    padding-top: 20px;
 }
 
 #navigation ul {
